@@ -1,0 +1,278 @@
+[Sat Jul 13 13:53:47.156383 2024] [ssl:warn] [pid 7276:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:53:47.238311 2024] [ssl:warn] [pid 7276:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:53:47.297083 2024] [mpm_winnt:notice] [pid 7276:tid 416] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 configured -- resuming normal operations
+[Sat Jul 13 13:53:47.297083 2024] [mpm_winnt:notice] [pid 7276:tid 416] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jul 13 13:53:47.297083 2024] [core:notice] [pid 7276:tid 416] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jul 13 13:53:47.303469 2024] [mpm_winnt:notice] [pid 7276:tid 416] AH00418: Parent: Created child process 20316
+[Sat Jul 13 13:53:48.481809 2024] [ssl:warn] [pid 20316:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:53:48.592547 2024] [ssl:warn] [pid 20316:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:53:48.653420 2024] [mpm_winnt:notice] [pid 20316:tid 424] AH00354: Child: Starting 150 worker threads.
+[Sat Jul 13 13:54:08.166364 2024] [authz_core:error] [pid 20316:tid 1940] [client ::1:63619] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin
+[Sat Jul 13 13:54:21.172698 2024] [autoindex:error] [pid 20316:tid 1940] [client ::1:63643] AH01276: Cannot serve directory C:/xampp/phpMyAdmin/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sat Jul 13 13:54:39.716797 2024] [php:warn] [pid 20316:tid 1940] [client ::1:63650] PHP Warning:  require_once(C:\\xampp\\phpMyAdmin\\libraries/constants.php): Failed to open stream: No such file or directory in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:54:39.717325 2024] [php:error] [pid 20316:tid 1940] [client ::1:63650] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\\xampp\\phpMyAdmin\\libraries/constants.php' (include_path='\\xampp\\php\\PEAR') in C:\\xampp\\phpMyAdmin\\index.php:22\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:55:17.079610 2024] [php:warn] [pid 20316:tid 1924] [client ::1:63652] PHP Warning:  require_once(C:\\xampp\\phpMyAdmin\\libraries/constants.php): Failed to open stream: No such file or directory in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:55:17.079610 2024] [php:error] [pid 20316:tid 1924] [client ::1:63652] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\\xampp\\phpMyAdmin\\libraries/constants.php' (include_path='\\xampp\\php\\PEAR') in C:\\xampp\\phpMyAdmin\\index.php:22\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:55:38.463630 2024] [php:warn] [pid 20316:tid 1940] [client ::1:63670] PHP Warning:  require_once(C:\\xampp\\phpMyAdmin\\libraries/constants.php): Failed to open stream: No such file or directory in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:55:38.463630 2024] [php:error] [pid 20316:tid 1940] [client ::1:63670] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\\xampp\\phpMyAdmin\\libraries/constants.php' (include_path='\\xampp\\php\\PEAR') in C:\\xampp\\phpMyAdmin\\index.php:22\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\phpMyAdmin\\index.php on line 22
+[Sat Jul 13 13:56:41.295913 2024] [ssl:warn] [pid 23216:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:56:41.378727 2024] [ssl:warn] [pid 23216:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:56:41.454938 2024] [mpm_winnt:notice] [pid 23216:tid 384] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 configured -- resuming normal operations
+[Sat Jul 13 13:56:41.454938 2024] [mpm_winnt:notice] [pid 23216:tid 384] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jul 13 13:56:41.454938 2024] [core:notice] [pid 23216:tid 384] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jul 13 13:56:41.469957 2024] [mpm_winnt:notice] [pid 23216:tid 384] AH00418: Parent: Created child process 16204
+[Sat Jul 13 13:56:42.678884 2024] [ssl:warn] [pid 16204:tid 392] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:56:42.789228 2024] [ssl:warn] [pid 16204:tid 392] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:56:42.868489 2024] [mpm_winnt:notice] [pid 16204:tid 392] AH00354: Child: Starting 150 worker threads.
+[Sat Jul 13 13:57:19.541307 2024] [ssl:warn] [pid 24368:tid 396] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:57:19.715248 2024] [ssl:warn] [pid 24368:tid 396] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:57:19.765886 2024] [mpm_winnt:notice] [pid 24368:tid 396] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 configured -- resuming normal operations
+[Sat Jul 13 13:57:19.765886 2024] [mpm_winnt:notice] [pid 24368:tid 396] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jul 13 13:57:19.765886 2024] [core:notice] [pid 24368:tid 396] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jul 13 13:57:19.779392 2024] [mpm_winnt:notice] [pid 24368:tid 396] AH00418: Parent: Created child process 15600
+[Sat Jul 13 13:57:20.822777 2024] [ssl:warn] [pid 15600:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:57:20.981966 2024] [ssl:warn] [pid 15600:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 13 13:57:21.044585 2024] [mpm_winnt:notice] [pid 15600:tid 424] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 26 17:59:58.712620 2024] [ssl:warn] [pid 10748:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 26 17:59:58.744806 2024] [core:warn] [pid 10748:tid 368] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 26 17:59:58.759437 2024] [ssl:warn] [pid 10748:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 26 17:59:59.089006 2024] [mpm_winnt:notice] [pid 10748:tid 368] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 configured -- resuming normal operations
+[Thu Sep 26 17:59:59.089006 2024] [mpm_winnt:notice] [pid 10748:tid 368] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Sep 26 17:59:59.089006 2024] [core:notice] [pid 10748:tid 368] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Sep 26 17:59:59.089006 2024] [mpm_winnt:notice] [pid 10748:tid 368] AH00418: Parent: Created child process 8928
+[Thu Sep 26 17:59:59.387381 2024] [ssl:warn] [pid 8928:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 26 17:59:59.435137 2024] [ssl:warn] [pid 8928:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 26 17:59:59.466408 2024] [mpm_winnt:notice] [pid 8928:tid 368] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 27 09:35:49.090837 2024] [ssl:warn] [pid 8728:tid 380] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 27 09:35:49.146557 2024] [core:warn] [pid 8728:tid 380] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 27 09:35:49.149560 2024] [ssl:warn] [pid 8728:tid 380] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 27 09:35:49.651738 2024] [mpm_winnt:notice] [pid 8728:tid 380] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 configured -- resuming normal operations
+[Fri Sep 27 09:35:49.651738 2024] [mpm_winnt:notice] [pid 8728:tid 380] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Sep 27 09:35:49.651738 2024] [core:notice] [pid 8728:tid 380] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 27 09:35:49.658243 2024] [mpm_winnt:notice] [pid 8728:tid 380] AH00418: Parent: Created child process 23060
+[Fri Sep 27 09:35:50.122871 2024] [ssl:warn] [pid 23060:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 27 09:35:50.169482 2024] [ssl:warn] [pid 23060:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 27 09:35:50.199818 2024] [mpm_winnt:notice] [pid 23060:tid 384] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 27 09:58:24.833800 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62541] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:58:25.329636 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62541] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:58:25.848938 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62540] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:58:27.094464 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62540] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:58:27.582429 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62540] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:58:28.002262 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62540] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:05.499565 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62566] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:05.663130 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62566] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:05.815201 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:05.999435 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.067694 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.260926 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.430671 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.834215 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.917688 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:06.972743 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:07.158988 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62567] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:48.042727 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62587] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:48.094359 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62587] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:48.589268 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62587] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:49.707590 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62587] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 09:59:49.726237 2024] [php:warn] [pid 23060:tid 1956] [client ::1:62587] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 10:02:00.687150 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62654] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 10:02:01.154033 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62654] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 10:02:01.632490 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62654] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 10:02:02.135885 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62654] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 10:02:02.534740 2024] [php:warn] [pid 23060:tid 1916] [client ::1:62654] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:20.153387 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58047] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:20.746183 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58047] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:20.942433 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58047] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:21.156801 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58047] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:50.363587 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:50.532083 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:50.725527 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:50.930010 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:50.990534 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:51.226452 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:53.249550 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:53.443699 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58048] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:53.609113 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:53.811711 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:53.871410 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:54.068973 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:54.586415 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:51:54.809264 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58066] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:07.845513 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:08.155667 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:08.465209 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:08.859569 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:09.207997 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:09.653232 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:09.807741 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58082] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:48.627451 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58081] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:52:48.916232 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58081] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:09.477858 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:09.642272 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:09.831363 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:09.996303 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:10.251464 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:10.590437 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58091] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:26.408726 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58097] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:26.595341 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58097] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:26.844237 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58097] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:27.271567 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58097] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:55.374517 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:55.611979 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:55.822256 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.061595 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.227867 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.407141 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.562440 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.754978 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:53:56.917350 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58105] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:04.696434 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58137] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:04.880742 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58137] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:05.059765 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58138] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:05.224383 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58138] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:05.442076 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58138] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:05.528185 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58138] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:19.548268 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58148] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:19.876721 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58148] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:20.203459 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58148] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 13:55:20.573291 2024] [php:warn] [pid 23060:tid 1892] [client ::1:58148] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 14:58:12.231352 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58805] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 14:58:12.680272 2024] [php:warn] [pid 23060:tid 1936] [client ::1:58805] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:03.885835 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:03.985831 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.139806 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.247321 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.415825 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.470786 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.774873 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.787710 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:04.823103 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:05.039275 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51809] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:05:21.312713 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51810] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.299802 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.417474 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.559985 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.660241 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.801366 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:48.912448 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:49.028014 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:49.199413 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:06:49.270968 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51833] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:12.523967 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51834] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:12.659280 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51834] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:12.811277 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51834] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:12.846949 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51834] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:13.011590 2024] [php:warn] [pid 23060:tid 1868] [client ::1:51834] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:13.186105 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51853] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:07:13.235701 2024] [php:warn] [pid 23060:tid 1896] [client ::1:51853] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.168531 2024] [php:warn] [pid 23060:tid 1896] [client ::1:52346] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.332200 2024] [php:warn] [pid 23060:tid 1896] [client ::1:52346] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.384320 2024] [php:warn] [pid 23060:tid 1896] [client ::1:52346] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.564534 2024] [php:warn] [pid 23060:tid 1896] [client ::1:52346] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.726881 2024] [php:warn] [pid 23060:tid 1868] [client ::1:52347] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:34:03.808148 2024] [php:warn] [pid 23060:tid 1896] [client ::1:52346] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:48:54.271166 2024] [php:warn] [pid 23060:tid 1868] [client ::1:53396] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 22:48:54.448138 2024] [php:warn] [pid 23060:tid 1868] [client ::1:53396] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:45:42.272162 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54495] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:57.370070 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54511] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:57.548439 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54511] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:57.700726 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54511] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:57.841741 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.016282 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.171937 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.328271 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.549425 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.618858 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:58.832191 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:46:59.072068 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54510] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:47:31.318963 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54528] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:47:46.601211 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54527] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:47:46.829928 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54527] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:48:05.938818 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54532] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:48:06.246712 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54532] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:48:06.580579 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54532] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Fri Sep 27 23:48:06.909180 2024] [php:warn] [pid 23060:tid 1892] [client ::1:54532] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 00:49:44.386460 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54979] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 00:49:44.739252 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54979] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 00:49:45.441461 2024] [php:warn] [pid 23060:tid 1936] [client ::1:54979] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 00:55:41.124783 2024] [php:warn] [pid 23060:tid 1936] [client ::1:55027] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:26.788708 2024] [php:warn] [pid 23060:tid 1868] [client ::1:55127] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:26.979584 2024] [php:warn] [pid 23060:tid 1868] [client ::1:55127] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:27.160043 2024] [php:warn] [pid 23060:tid 1868] [client ::1:55127] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:27.338109 2024] [php:warn] [pid 23060:tid 1868] [client ::1:55127] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:27.517259 2024] [php:warn] [pid 23060:tid 1868] [client ::1:55127] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:27.684381 2024] [php:warn] [pid 23060:tid 1936] [client ::1:55128] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:27.842951 2024] [php:warn] [pid 23060:tid 1936] [client ::1:55128] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 01:04:28.022149 2024] [php:warn] [pid 23060:tid 1936] [client ::1:55128] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:44:36.918747 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56568] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:44:43.030318 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56569] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:44:55.275267 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56574] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.019620 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56578] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.202505 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56578] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.360378 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56578] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.510029 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56578] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.655098 2024] [php:warn] [pid 23060:tid 1956] [client ::1:56578] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:45:11.838366 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56580] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:46:05.635132 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56589] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:46:05.816399 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56589] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:46:06.019075 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56589] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:46:06.086648 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56589] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:46:06.252602 2024] [php:warn] [pid 23060:tid 1916] [client ::1:56589] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:56.409103 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:56.537013 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:56.697384 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:56.725977 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:56.941595 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 07:59:57.022850 2024] [php:warn] [pid 23060:tid 1892] [client ::1:56606] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:04:41.288579 2024] [php:warn] [pid 23060:tid 1936] [client ::1:57361] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:15.878766 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:16.103532 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:16.252400 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:16.421142 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:20.111484 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:21.536409 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:21.695095 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59176] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:28.956907 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59177] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:29.125462 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59177] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:11:29.421677 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59177] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:43.887347 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:44.280063 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:44.448948 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:44.639164 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:47.476083 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:47.678233 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:47.854269 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.056643 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.222805 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.376413 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.533222 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59219] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.671432 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:48.853866 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.028844 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.260299 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.332117 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.527261 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.831240 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:49.919327 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:50.027494 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:50.219574 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:50.388124 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:52.702690 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:52.910021 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:53.084579 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:12:53.250933 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59220] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:02.938109 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59261] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:49.757209 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:53.799066 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:54.203976 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:54.728209 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:55.588774 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:14:55.618327 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59260] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:16:03.518993 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59277] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:16:57.751283 2024] [php:warn] [pid 23060:tid 1936] [client ::1:59278] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 08:19:26.365124 2024] [php:warn] [pid 23060:tid 1892] [client ::1:59303] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 09:19:30.230029 2024] [php:warn] [pid 23060:tid 1900] [client ::1:59566] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 09:20:35.799700 2024] [php:warn] [pid 23060:tid 1956] [client ::1:59594] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 09:23:14.236603 2024] [php:warn] [pid 23060:tid 1956] [client ::1:59622] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 09:23:47.020074 2024] [php:warn] [pid 23060:tid 1900] [client ::1:59623] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
+[Sat Sep 28 09:27:08.074998 2024] [php:warn] [pid 23060:tid 1956] [client ::1:59656] PHP Warning:  Undefined array key "v" in C:\\xampp\\htdocs\\tnp\\studentDashboard.php on line 48
